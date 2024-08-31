@@ -182,7 +182,8 @@ export default {
       )
     } else {
       this.getUserNotify()
-      this.timerGetNotify(5)
+      //TODO 轮询消息通知
+      // this.timerGetNotify(5)
     }
   },
   computed: {
